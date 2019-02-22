@@ -1,0 +1,19 @@
+.canvas {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: space-between;
+
+  &__reset-button {
+    cursor: pointer;
+    height: 100% !important;
+  }
+
+  .delete {
+    height: 100%;
+  }
+
+  .field {
+    width: 100%;
+  }
+}
